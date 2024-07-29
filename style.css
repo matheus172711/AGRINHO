@@ -4,22 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-nav{
-    background-color: #189d4f;
-    padding: 10px 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-}
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background.png');
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('campinho');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,9 +20,15 @@ nav{
     font-size: 60px;
     font-weight: 600;
 }
-.texto .sub_titulo{
+.texto .sub_tituloo{
     color: #fff;
     font-size: 58px;
     font-weight: 600;
-}
 
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+}
